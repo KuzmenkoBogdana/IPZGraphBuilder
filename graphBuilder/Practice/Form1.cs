@@ -221,7 +221,7 @@ namespace Practice
             return y;
         }
 
-        private double parabola(double x)
+        public double parabola(double x)
         {
             double A = double.Parse(textBox6.Text);
             double B = double.Parse(textBox7.Text);
@@ -229,14 +229,14 @@ namespace Practice
             double y = A * Math.Pow(x, 2) + B * x + C;
             return y;
         }
-        private double sin(double x)
+        public double sin(double x)
         {
             double A = double.Parse(textBox12.Text);
             int B = int.Parse(textBox13.Text);
             double y = A * Math.Sin(B * x);
             return y;
         }
-        private double cos(double x)
+        public double cos(double x)
         {
             double A = double.Parse(textBox14.Text);
             double B = double.Parse(textBox15.Text);
@@ -244,7 +244,7 @@ namespace Practice
             return y;
         }
 
-        private double line(double x)
+        public double line(double x)
         {
             double k = double.Parse(textBox16.Text);
             double b = double.Parse(textBox17.Text);
@@ -259,7 +259,7 @@ namespace Practice
             double y = p * Math.Abs(k * x + b);
             return y;
         }
-        private double sqrtline(double x)
+        public double sqrtline(double x)
         {
             double y = 0;
             double k = double.Parse(textBox24.Text);
@@ -282,7 +282,7 @@ namespace Practice
             y = A*Math.Cosh(x);
             return y;
         }
-        private double tg(double x)
+        public double tg(double x)
         {
             double y = 0;
             double A = double.Parse(textBox29.Text);
