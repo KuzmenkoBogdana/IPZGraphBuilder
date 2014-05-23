@@ -393,7 +393,7 @@ namespace Practice
             }
         }
 
-        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (pictureBox1.Image != null)
             {
@@ -426,7 +426,7 @@ namespace Practice
             }
         }
 
-        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
         }
@@ -436,12 +436,12 @@ namespace Practice
             DrawGraphics();
         }
 
-        private void авторToolStripMenuItem_Click(object sender, EventArgs e)
+        private void authorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Подолянский Дмитрий, группа 205(c)","Автор", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Кузьменко Богдана, группа 305(c)","Автор", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void оПрограммеToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Построитель графиков функций:\nВы можете выбрать любой из предоставленных графиков и построить их.\nЕсть такие графики:\nКубическая парабола,\nКвадратичная парабола,\nСинус,\nКосинус,\nПрямая,\nОкружность,\nГрафик модуля,\nКорень из х,\nГиперболический синус,\nГиперболический косинус", 
                 "О программе", MessageBoxButtons.OK, MessageBoxIcon.Information);
